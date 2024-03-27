@@ -7,13 +7,13 @@ const Header = () => {
         <Container>
             <Navbar expand="md" className="bg-dark navbar-light">
                 <Container>
-                    <NavbarBrand href="/" className="text-light">
+                    <NavbarBrand href="/" className="text-light align-text-center">
                         <Image 
                             src={logo}
                             alt="Logo paTuristear"
-                            width={30}
-                            height={30}
-                            className="d-inline-block align-top me-2"
+                            width={60}
+                            height={60}
+                            className="d-inline-block align-center me-2"
                         />
                         PaTuristear 
                     </NavbarBrand>
