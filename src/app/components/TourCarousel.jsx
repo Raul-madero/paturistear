@@ -6,14 +6,14 @@ const TourCarousel = () => {
     return (
         <Carousel className="bg-dark">
             <CarouselItem>
-                <Image src={imgURL} alt="Estadio Santiago Bernabeu" width={"100%"} height={"100vh"} />
+                <Image src={imgURL} alt="Estadio Santiago Bernabeu" width={"100%"} height={500} />
                 <CarouselCaption>
                     <h3>Estadio Santiago Bernabeu</h3>
                     <p>El estadio mas emblematico del futbol español</p>
                 </CarouselCaption>
             </CarouselItem>
             <CarouselItem>
-                <Image src={imgURL} alt="" width={"100%"} height={"100vh"}/>
+                <Image src={imgURL} alt="" width={"100%"} height={500}/>
                 <CarouselCaption>
                     <h3>Estadio Santiago Bernabeu</h3>
                     <p>El estadio mas emblematico del futbol español</p>

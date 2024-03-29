@@ -4,12 +4,12 @@ import { Container, Image, Nav, NavLink, Navbar, NavbarBrand, NavbarCollapse, Na
 const Header = () => {
     const logo = "https://i.ibb.co/DRhxdbr/logo.png"
     return (
-        <Container className="bg-dark">
-            <Navbar expand="md" className="bg-dark navbar-light">
+        <Container className="bg-warning bg-gradient">
+            <Navbar expand="md" className="navbar-light">
                 <Container>
                     <NavbarBrand href="/" className="text-light align-text-center">
                         <Image 
-                            src={logo}
+                            src={logo}dark
                             alt="Logo paTuristear"
                             width={60}
                             height={60}
