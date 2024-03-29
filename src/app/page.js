@@ -1,5 +1,12 @@
+import { Container } from "react-bootstrap"
+import TourCarousel from "./components/TourCarousel"
+
 const Home = () => {
-  return <h1>Hola Mundo</h1>
+  return (
+    <Container >
+      <TourCarousel />
+    </Container>
+  )
 }
 
 export default Home
