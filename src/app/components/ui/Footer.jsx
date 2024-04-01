@@ -7,7 +7,7 @@ const { Container, Image } = require("react-bootstrap")
 const Footer = () => {
     const logo = "https://i.ibb.co/DRhxdbr/logo.png"
     return (
-        <Container className="bg-dark d-flex justify-content-center align-items-center py-4">
+        <Container className="navegacion d-flex justify-content-center align-items-center py-4">
             <Link href="/" className="d-flex align-items-center text-decoration-none">
                 <Image
                     src={logo}
